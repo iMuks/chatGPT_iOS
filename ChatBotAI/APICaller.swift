@@ -12,7 +12,7 @@ final class APICaller {
     
     private var client: OpenAISwift?
     @frozen enum Constants {
-        static let key = "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"
+        static let key = ""
     }
     private init() {}
     
