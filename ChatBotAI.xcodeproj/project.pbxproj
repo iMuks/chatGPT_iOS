@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6C4AA4D296616F300975DA8 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C4AA4C296616F300975DA8 /* ChatView.swift */; };
+		B6C4AA50296616FE00975DA8 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C4AA4E296616FE00975DA8 /* ChatModel.swift */; };
+		B6C4AA51296616FE00975DA8 /* ChatScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C4AA4F296616FE00975DA8 /* ChatScrollView.swift */; };
+		B6C4AA552966171000975DA8 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C4AA522966171000975DA8 /* ChatBubble.swift */; };
+		B6C4AA562966171000975DA8 /* ChatBubblePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C4AA532966171000975DA8 /* ChatBubblePosition.swift */; };
+		B6C4AA572966171000975DA8 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C4AA542966171000975DA8 /* APICaller.swift */; };
+		B6C4AA592966171800975DA8 /* SwiftUI Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C4AA582966171800975DA8 /* SwiftUI Speech.swift */; };
+		B6C4AA5C296617B400975DA8 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = B6C4AA5B296617B400975DA8 /* OpenAISwift */; };
+		B6DA105529618833008AA8F6 /* ChatBotAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DA105429618833008AA8F6 /* ChatBotAIApp.swift */; };
+		B6DA105729618833008AA8F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DA105629618833008AA8F6 /* ContentView.swift */; };
+		B6DA105929618838008AA8F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6DA105829618838008AA8F6 /* Assets.xcassets */; };
+		B6DA105C29618838008AA8F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6DA105B29618838008AA8F6 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6A3CBF429622C15006B6513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B6C4AA4C296616F300975DA8 /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		B6C4AA4E296616FE00975DA8 /* ChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		B6C4AA4F296616FE00975DA8 /* ChatScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatScrollView.swift; sourceTree = "<group>"; };
+		B6C4AA522966171000975DA8 /* ChatBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		B6C4AA532966171000975DA8 /* ChatBubblePosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBubblePosition.swift; sourceTree = "<group>"; };
+		B6C4AA542966171000975DA8 /* APICaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		B6C4AA582966171800975DA8 /* SwiftUI Speech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftUI Speech.swift"; sourceTree = "<group>"; };
+		B6DA105129618833008AA8F6 /* ChatBotAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBotAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6DA105429618833008AA8F6 /* ChatBotAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotAIApp.swift; sourceTree = "<group>"; };
+		B6DA105629618833008AA8F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6DA105829618838008AA8F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6DA105B29618838008AA8F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6DA104E29618832008AA8F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C4AA5C296617B400975DA8 /* OpenAISwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6DA104829618832008AA8F6 = {
+			isa = PBXGroup;
+			children = (
+				B6DA105329618833008AA8F6 /* ChatBotAI */,
+				B6DA105229618833008AA8F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6DA105229618833008AA8F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6DA105129618833008AA8F6 /* ChatBotAI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6DA105329618833008AA8F6 /* ChatBotAI */ = {
+			isa = PBXGroup;
+			children = (
+				B6A3CBF429622C15006B6513 /* Info.plist */,
+				B6DA105429618833008AA8F6 /* ChatBotAIApp.swift */,
+				B6DA105629618833008AA8F6 /* ContentView.swift */,
+				B6C4AA582966171800975DA8 /* SwiftUI Speech.swift */,
+				B6C4AA542966171000975DA8 /* APICaller.swift */,
+				B6C4AA522966171000975DA8 /* ChatBubble.swift */,
+				B6C4AA532966171000975DA8 /* ChatBubblePosition.swift */,
+				B6C4AA4E296616FE00975DA8 /* ChatModel.swift */,
+				B6C4AA4F296616FE00975DA8 /* ChatScrollView.swift */,
+				B6C4AA4C296616F300975DA8 /* ChatView.swift */,
+				B6DA105829618838008AA8F6 /* Assets.xcassets */,
+				B6DA105A29618838008AA8F6 /* Preview Content */,
+			);
+			path = ChatBotAI;
+			sourceTree = "<group>";
+		};
+		B6DA105A29618838008AA8F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6DA105B29618838008AA8F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6DA105029618832008AA8F6 /* ChatBotAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6DA105F29618838008AA8F6 /* Build configuration list for PBXNativeTarget "ChatBotAI" */;
+			buildPhases = (
+				B6DA104D29618832008AA8F6 /* Sources */,
+				B6DA104E29618832008AA8F6 /* Frameworks */,
+				B6DA104F29618832008AA8F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatBotAI;
+			packageProductDependencies = (
+				B6C4AA5B296617B400975DA8 /* OpenAISwift */,
+			);
+			productName = ChatBotAI;
+			productReference = B6DA105129618833008AA8F6 /* ChatBotAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6DA104929618832008AA8F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B6DA105029618832008AA8F6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B6DA104C29618832008AA8F6 /* Build configuration list for PBXProject "ChatBotAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6DA104829618832008AA8F6;
+			packageReferences = (
+				B6C4AA5A296617B400975DA8 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+			);
+			productRefGroup = B6DA105229618833008AA8F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6DA105029618832008AA8F6 /* ChatBotAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6DA104F29618832008AA8F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DA105C29618838008AA8F6 /* Preview Assets.xcassets in Resources */,
+				B6DA105929618838008AA8F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6DA104D29618832008AA8F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DA105729618833008AA8F6 /* ContentView.swift in Sources */,
+				B6C4AA51296616FE00975DA8 /* ChatScrollView.swift in Sources */,
+				B6DA105529618833008AA8F6 /* ChatBotAIApp.swift in Sources */,
+				B6C4AA50296616FE00975DA8 /* ChatModel.swift in Sources */,
+				B6C4AA592966171800975DA8 /* SwiftUI Speech.swift in Sources */,
+				B6C4AA4D296616F300975DA8 /* ChatView.swift in Sources */,
+				B6C4AA552966171000975DA8 /* ChatBubble.swift in Sources */,
+				B6C4AA572966171000975DA8 /* APICaller.swift in Sources */,
+				B6C4AA562966171000975DA8 /* ChatBubblePosition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B6DA105D29618838008AA8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6DA105E29618838008AA8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6DA106029618838008AA8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatBotAI/Preview Content\"";
+				DEVELOPMENT_TEAM = W4422JCH62;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatBotAI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SenseNow;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Usage of Microphone for Audio Input";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Accepting this means you are willing to have your information sent to Apple for processing";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chatbot.tempapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6DA106129618838008AA8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatBotAI/Preview Content\"";
+				DEVELOPMENT_TEAM = W4422JCH62;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatBotAI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SenseNow;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Usage of Microphone for Audio Input";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Accepting this means you are willing to have your information sent to Apple for processing";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chatbot.tempapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6DA104C29618832008AA8F6 /* Build configuration list for PBXProject "ChatBotAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6DA105D29618838008AA8F6 /* Debug */,
+				B6DA105E29618838008AA8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6DA105F29618838008AA8F6 /* Build configuration list for PBXNativeTarget "ChatBotAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6DA106029618838008AA8F6 /* Debug */,
+				B6DA106129618838008AA8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B6C4AA5A296617B400975DA8 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B6C4AA5B296617B400975DA8 /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6C4AA5A296617B400975DA8 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B6DA104929618832008AA8F6 /* Project object */;
+}

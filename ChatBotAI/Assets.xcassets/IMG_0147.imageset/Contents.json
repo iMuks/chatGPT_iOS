@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "2890571_ai_artificial intelligence_automaton_brain_dog_icon.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "2890571_ai_artificial intelligence_automaton_brain_dog_icon 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "2890571_ai_artificial intelligence_automaton_brain_dog_icon 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
