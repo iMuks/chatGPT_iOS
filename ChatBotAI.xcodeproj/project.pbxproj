@@ -310,7 +310,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChatBotAI/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SenseNow;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chat-GPT3";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Usage of Microphone for Audio Input";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Accepting this means you are willing to have your information sent to Apple for processing";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -345,7 +345,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChatBotAI/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SenseNow;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chat-GPT3";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Usage of Microphone for Audio Input";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Accepting this means you are willing to have your information sent to Apple for processing";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

@@ -35,17 +35,13 @@ struct ChatView: View {
                     HStack {
                         Image(systemName: "brain.head.profile")
                         VStack {
-                            Text("SenseNow").font(.headline)
+                            Text("Chat-GPT3").font(.headline)
                             Text("Online").font(.footnote)
                                 .padding(.trailing)
                                 .fontWeight(.light)
                         }
                     }
                 }
-//                ToolbarItem(placement: .navigationBarTrailing) {
-//
-//                    Button("Add 1") {}
-//                }
             }
             .background(Color("toolbar"))
             .onAppear(perform: {
@@ -71,10 +67,9 @@ extension ChatView {
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     HStack {
-                        Image(systemName: "brain.head.profile")
-                        
+                        Image(systemName:"brain.head.profile")
                         VStack {
-                            Text("Chat GPT").font(.headline)
+                            Text("Chat GPT3").font(.headline)
                             if #available(iOS 16.0, *) {
                                 Text("Online").font(.footnote)
                                     .padding(.trailing)
